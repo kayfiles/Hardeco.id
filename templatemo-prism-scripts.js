@@ -13,79 +13,71 @@ https://templatemo.com/tm-600-prism-flux
 const portfolioData = [
   {
     id: 1,
-    title: "Neural Network",
+    title: "Software Kasir",
     description:
-      "Advanced AI system with deep learning capabilities for predictive analytics and pattern recognition.",
-    image: "images/neural-network.jpg",
+      "Advanced system with deep learning capabilities for predictive analytics and grafik analytics.",
+    image: "images/galery/web/1.png",
     tech: ["TensorFlow", "Python", "CUDA"],
   },
   {
     id: 2,
-    title: "Quantum Cloud",
+    title: "Software Absensi dengan Geoloc dan selfi cam",
     description:
       "Next-generation cloud infrastructure leveraging quantum computing for unprecedented processing power.",
-    image: "images/quantum-cloud.jpg",
+    image: "images/galery/web/presensi.png",
     tech: ["AWS", "Kubernetes", "Docker"],
   },
   {
     id: 3,
-    title: "Blockchain Vault",
+    title: "Web Company Profile",
     description:
       "Secure decentralized storage solution using advanced encryption and distributed ledger technology.",
-    image: "images/blockchain-vault.jpg",
+    image: "images/galery/web/cp.png",
     tech: ["Ethereum", "Solidity", "Web3"],
   },
   {
     id: 4,
-    title: "Cyber Defense",
+    title: "Desain Logo",
     description:
-      "Military-grade cybersecurity framework with real-time threat detection and automated response.",
-    image: "images/cyber-defense.jpg",
-    tech: ["Zero Trust", "AI Defense", "Encryption"],
+      "Military-grade framework with real-time threat detection and automated response.",
+    image: "images/galery/logo/1.jpg",
+    tech: ["Canva Pro", "AI", "Photoshop"],
   },
   {
     id: 5,
-    title: "Data Nexus",
+    title: "Desain Logo",
     description:
       "Big data processing platform capable of analyzing petabytes of information in real-time.",
-    image: "images/data-nexus.jpg",
+    image: "images/galery/logo/3.png",
     tech: ["Apache Spark", "Hadoop", "Kafka"],
   },
   {
     id: 6,
-    title: "AR Interface",
+    title: "Desain Flayer",
     description:
       "Augmented reality system for immersive data visualization and interactive experiences.",
-    image: "images/ar-interface.jpg",
+    image: "images/galery/flayer/1.png",
     tech: ["Unity", "ARCore", "Computer Vision"],
   },
   {
     id: 7,
-    title: "IoT Matrix",
+    title: "Web dan Android Development",
     description:
       "Intelligent IoT ecosystem connecting millions of devices with edge computing capabilities.",
-    image: "images/iot-matrix.jpg",
+    image: "images/galery/web/33.jpg",
     tech: ["MQTT", "Edge AI", "5G"],
   },
 ];
 
 // Skills data
 const skillsData = [
-  {
-    image: "images/iot-matrix.jpg",
-    category: "frontend",
-  },
-  { name: "Node.js", icon: "🟢", level: 90, category: "backend" },
-  { name: "TypeScript", icon: "📘", level: 88, category: "frontend" },
-  { name: "AWS", icon: "☁️", level: 92, category: "cloud" },
-  { name: "Docker", icon: "🐳", level: 85, category: "cloud" },
-  { name: "Python", icon: "🐍", level: 93, category: "backend" },
-  { name: "Kubernetes", icon: "☸️", level: 82, category: "cloud" },
-  { name: "GraphQL", icon: "◈", level: 87, category: "backend" },
-  { name: "TensorFlow", icon: "🤖", level: 78, category: "emerging" },
-  { name: "Blockchain", icon: "🔗", level: 75, category: "emerging" },
-  { name: "Vue.js", icon: "💚", level: 85, category: "frontend" },
-  { name: "MongoDB", icon: "🍃", level: 90, category: "backend" },
+  { image: "images/galery/logo/1.jpg", category: "logo" },
+  { image: "images/galery/logo/2.png", category: "logo" },
+  { image: "images/galery/produk/2.png", category: "produk" },
+  { image: "images/galery/produk/1.jpg", category: "produk" },
+  { image: "images/galery/web/1.png", category: "web" },
+  { image: "images/galery/web/2.jpg", category: "web" },
+  { image: "images/galery/web/3.png", category: "web" },
 ];
 
 // Scroll to section function
@@ -150,7 +142,7 @@ function createCarouselItem(data, index) {
                     <h3 class="card-title">${data.title}</h3>
                     <p class="card-description">${data.description}</p>
                     <div class="card-tech">${techBadges}</div>
-                    <button class="card-cta" onclick="scrollToSection('skills')">Explore</button>
+                    <button class="card-cta" onclick="scrollToSection('contact')">Explore</button>
                 </div>
             `;
 

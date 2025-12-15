@@ -6,6 +6,85 @@
     <title>Hardeco - Home</title>
     <link rel="stylesheet" href="templatemo-prism-flux.css" />
 
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="icon/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="icon/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="icon/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="icon/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="60x60"
+      href="icon/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="120x120"
+      href="icon/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="76x76"
+      href="icon/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="icon/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="icon/favicon-196x196.png"
+      sizes="196x196"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="icon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="icon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="icon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="icon/favicon-128.png"
+      sizes="128x128"
+    />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
     <!-- icons -->
     <link
       rel="stylesheet"
@@ -54,6 +133,7 @@ https://templatemo.com/tm-600-prism-flux
             </div>
           </div>
           <span class="logo-text">
+            <!-- <img src="images/galery/logo/Hardeco.png" alt="Hardeco" /> -->
             <span class="flux">Hardeco.</span>
           </span>
         </a>
@@ -231,10 +311,9 @@ https://templatemo.com/tm-600-prism-flux
 
         <div class="skill-categories">
           <div class="category-tab active" data-category="all">All</div>
-          <div class="category-tab" data-category="frontend">Frontend</div>
-          <div class="category-tab" data-category="backend">Backend</div>
-          <div class="category-tab" data-category="cloud">Cloud & DevOps</div>
-          <div class="category-tab" data-category="emerging">Emerging Tech</div>
+          <div class="category-tab" data-category="logo">Logo</div>
+          <div class="category-tab" data-category="web">Website</div>
+          <div class="category-tab" data-category="produk">Foto Produk</div>
         </div>
 
         <div class="skills-hexagon-grid" id="skillsGrid"></div>
@@ -317,11 +396,12 @@ https://templatemo.com/tm-600-prism-flux
           <div class="footer-logo">
             <div class="logo-icon">
               <div class="logo-prism">
-                <div class="prism-shape"></div>
+                <!-- <div class="prism-shape"></div> -->
+                <img src="images/galery/logo/Hardeco.png" alt="" />
               </div>
             </div>
             <span class="logo-text">
-              <span class="flux">Hardeco.</span>
+              <!-- <span class="flux">Hardeco.</span> -->
             </span>
           </div>
           <p class="footer-description">
@@ -386,5 +466,14 @@ https://templatemo.com/tm-600-prism-flux
       </div>
     </footer>
     <script src="templatemo-prism-scripts.js"></script>
+
+    <!-- Skill Thumbnail Modal -->
+    <div id="skillModal" class="skill-modal">
+      <div class="skill-modal-overlay"></div>
+      <div class="skill-modal-content">
+        <span class="skill-modal-close">&times;</span>
+        <img id="skillModalImage" src="" alt="Preview" />
+      </div>
+    </div>
   </body>
 </html>
